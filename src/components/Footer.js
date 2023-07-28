@@ -105,7 +105,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-12">
               <p className="text-center mb-0 text-white">
-                &copy; {new Date().getFullYear()}:Powered By Developers Hub
+                &copy; {new Date().getFullYear()}:Powered By E COMMERCE
               </p>
             </div>
           </div>

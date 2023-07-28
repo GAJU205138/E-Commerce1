@@ -9,11 +9,16 @@ const Header = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-6 pb-0">
-              <p className="text-white">Free shoping over₹ 500 & free return</p>
+              <p
+                className="text-white"
+                style={{ fontSize: "15px", lineHeight: "1" }}
+              >
+                Free shoping over₹ 500 & free return
+              </p>
             </div>
             <div className="col-6 pb-0">
-              <p className="text-end text-white">
-                tellfree:
+              <p className="text-end text-white" style={{ fontSize: "15px" }}>
+                Tollfree:
                 <Link className="text-white" href="el:+91 8095513084">
                   +91 809513084
                 </Link>
@@ -27,7 +32,7 @@ const Header = () => {
           <div className="row align-items-center">
             <div className="col-2">
               <Link>
-                <h2 className="text-white">DEV CORNER</h2>
+                <h2 className="text-white">E COMMERCE</h2>
               </Link>
             </div>
             <div className="col-5 ">
@@ -91,7 +96,6 @@ const Header = () => {
                     />
                     <div className="d-flex flex-column gap-10">
                       <span className="badge bg-white text-dark">0</span>
-                      <p className="mb-0"> $500</p>
                     </div>
                   </Link>
                 </div>
@@ -105,43 +109,7 @@ const Header = () => {
           <div className="row">
             <div className="col-12">
               <div className="menu-bottom d-flex align-items-center gap-30">
-                <div>
-                  <div className="dropdown">
-                    <button
-                      className="btn btn-secondary dropdown-toggle bg-transparent border-0 d-flex align-items-center gap-15"
-                      type="button"
-                      id="dropdownMenuButton1"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      <img src="/images/menu.svg" alt="menu" />
-                      <span className="me-5 d-inline-black">
-                        Shop categaries
-                      </span>
-                    </button>
-                    <ul
-                      className="dropdown-menu"
-                      aria-labelledby="dropdownMenuButton1"
-                    >
-                      <li>
-                        <Link className="dropdown-item text-white" to="/">
-                          Action
-                        </Link>
-                      </li>
-                      <li>
-                        <Link className="dropdown-item text-white" to="/">
-                          Another action
-                        </Link>
-                      </li>
-                      <li>
-                        <Link className="dropdown-item text-white" to="/">
-                          Something else here
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="menu-links">
+                <div className="menu-links py-2">
                   <div className="d-flex align-items-center gap-15">
                     <NavLink to="/">Home</NavLink>
                     <NavLink to="/store">Our store</NavLink>
